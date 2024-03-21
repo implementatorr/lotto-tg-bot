@@ -1,7 +1,7 @@
 from telebot import types
 import random
 
-bot = telebot.TeleBot("6640384451:AAGhroxOrfUqJ3L6RMdliiM0paDWDUMzZc0")
+bot = telebot.TeleBot("your token")
 
 buttons = [types.InlineKeyboardButton(str(i), callback_data=str(i)) for i in range(1, 26)]
 keyboard = types.InlineKeyboardMarkup(row_width=5)
